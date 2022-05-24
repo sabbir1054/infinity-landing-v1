@@ -1,0 +1,36 @@
+
+.hero-text {
+    position: relative;
+    font-size: 8vw;
+    color: #00000080;
+    font-weight: bold;
+    -webkit-text-stroke: .05vw #ffffff;
+    margin-top: 15vh;
+}
+.hero-text::before {
+    
+    content: attr(data-text);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    color: #771CE8;
+    -webkit-text-stroke: .1vw #ffffff;
+    font-weight: bold;
+    border-right: 3px solid #E41BCA;
+    overflow: hidden;
+    animation: text 6s linear infinite;
+}
+
+@keyframes text {
+    0%,10%,100% {
+        width: 0;
+    }
+    30% {
+        width: 20%;
+    }
+    70%,90% {
+        width: 100%;
+    }
+}

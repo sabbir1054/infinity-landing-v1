@@ -1,0 +1,44 @@
+.hero_wrapper {
+  background-image: url("/public/images/hero-background.png");
+  background-color: black;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-family: 'Roboto',sans-serif;
+}
+
+.default_nav {
+  border-bottom: 1px solid rgba(182, 179, 179, 0.466);
+  box-shadow: 0px 0px 12px #ffffff42;
+  background-color: rgba(0, 0, 0, 0.363);
+  font-family: 'Roboto',sans-serif;
+}
+
+.heroBtn1{
+    background-color: #771CE8;
+    padding: 0.3vw 3vw;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: all 0.3s ease-in;
+}
+.heroBtn1:hover{
+    background-color: #00000031;
+    padding: 0.3vw 3vw;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.heroBtn2{
+    background-color: #00000031;
+    padding: 0.3vw 3vw;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: all 0.3s ease-in;
+}
+.heroBtn2:hover{
+    background-color: #771CE8;
+    padding: 0.3vw 3vw;
+    border: 1.5px solid white;
+    border-radius: 30px;
+}

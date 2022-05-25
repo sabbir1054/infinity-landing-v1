@@ -1,36 +1,47 @@
-
 .hero-text {
-    position: relative;
-    font-size: 8vw;
-    color: #00000080;
-    font-weight: bold;
-    -webkit-text-stroke: .05vw #ffffff;
-    margin-top: 15vh;
+  position: relative;
+  font-size: 8vw;
+  color: #00000080;
+  font-weight: bold;
+  -webkit-text-stroke: 0.05vw #ffffff;
+  margin-top: 15vh;
 }
 .hero-text::before {
-    
-    content: attr(data-text);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 0%;
-    height: 100%;
-    color: #771CE8;
-    -webkit-text-stroke: .1vw #ffffff;
-    font-weight: bold;
-    border-right: 3px solid #E41BCA;
-    overflow: hidden;
-    animation: text 6s linear infinite;
+  content: attr(data-text);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  /* color: #771CE8; */
+  -webkit-text-stroke: 0.1vw #ffffff;
+  font-weight: bold;
+  border-right: 3px solid #e41bca;
+  overflow: hidden;
+  animation: text 6s linear infinite;
+  background: #121fcf;
+  background: linear-gradient(
+    to right,
+    #6e00e1 0%,
+    #841ecf 30%,
+    #bf00c6 70%,
+    #5974e1 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes text {
-    0%,10%,100% {
-        width: 0;
-    }
-    30% {
-        width: 20%;
-    }
-    70%,90% {
-        width: 100%;
-    }
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  30% {
+    width: 20%;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
 }

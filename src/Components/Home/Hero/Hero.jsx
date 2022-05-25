@@ -7,11 +7,6 @@ import styles from "./Hero.module.css";
 import HeroText from "./HeroText/HeroText";
 const Hero = () => {
   const particlesInit = async (main) => {
-    console.log(main);
-
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(main);
   };
 
@@ -22,6 +17,7 @@ const Hero = () => {
     <div id="hero" className={`${styles.hero_wrapper}`}>
       {/* Particle */}
       <Particles
+        className={`${styles.tsparticles}`}
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -30,7 +26,7 @@ const Hero = () => {
           interactivity: {
             events: {
               onClick: {
-                enable: true,
+                enable: false,
                 mode: "push",
               },
               onHover: {
@@ -92,8 +88,10 @@ const Hero = () => {
           },
           detectRetina: true,
         }}
-      />
-      <div className="hero_nav">
+      >
+        {" "}
+      </Particles>
+      <div className={`${styles.heroNav}`}>
         <Navbar expand="lg" className={`${styles.default_nav} py-3`}>
           <Container>
             <Navbar.Brand
@@ -135,7 +133,9 @@ const Hero = () => {
           </Container>
         </Navbar>
       </div>
-      <div className="hero_text d-flex flex-column align-items-center">
+      <div
+        className={`${styles.hero_text} d-flex flex-column align-items-center`}
+      >
         {/* <img src="/images/logo.png" alt="" width={300} className='img-fluid'/> */}
         <HeroText></HeroText>
         <p className="text-white fs-5  w-75">

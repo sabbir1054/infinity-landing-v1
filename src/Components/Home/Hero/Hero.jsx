@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 /* Ts Particle */
 import Particles from "react-tsparticles";
@@ -6,6 +6,20 @@ import { loadFull } from "tsparticles";
 import styles from "./Hero.module.css";
 import HeroText from "./HeroText/HeroText";
 const Hero = () => {
+  const [defNav,setDefNav] = useState(false);
+//scrolling navbar
+    const listenScrollEvent = () => {
+      window.scrollY > 20 ? setDefNav(true) : setDefNav(false);
+   
+    };
+    useEffect(() => {
+      window.addEventListener("scroll", listenScrollEvent);
+      return () => {
+        window.removeEventListener("scroll", listenScrollEvent);
+      };
+    }, []);
+
+console.log(defNav);
   const particlesInit = async (main) => {
     await loadFull(main);
   };
@@ -92,7 +106,7 @@ const Hero = () => {
         {" "}
       </Particles>
       <div className={`${styles.heroNav}`}>
-        <Navbar expand="lg" className={`${styles.default_nav} py-3`}>
+        <Navbar expand="lg" fixed={defNav?"top":""} className={`${ defNav?styles.scroll_nav:styles.default_nav}`}>
           <Container>
             <Navbar.Brand
               href="#home"

@@ -19,10 +19,17 @@
     z-index: 0;
 }
 .heroNav{
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
     z-index: 1;
+}
+
+.scroll_nav{
+  position: fixed;
+  border-bottom: 1px solid rgba(182, 179, 179, 0.466);
+  box-shadow: 0px 0px 12px #ffffff42;
+  background-color: #0F0035;
+  font-family: 'Roboto',sans-serif;
+  padding:8px 0px ;
+  transition: all 0.5 ease-in;
 }
 
 
@@ -31,6 +38,8 @@
   box-shadow: 0px 0px 12px #ffffff42;
   background-color: rgba(0, 0, 0, 0.363);
   font-family: 'Roboto',sans-serif;
+  padding:20px 0px ;
+  transition: all 0.5 ease-in;
 }
 
 .heroBtn1{

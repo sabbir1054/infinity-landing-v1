@@ -19,7 +19,6 @@ const Hero = () => {
       };
     }, []);
 
-console.log(defNav);
   const particlesInit = async (main) => {
     await loadFull(main);
   };
@@ -130,16 +129,16 @@ console.log(defNav);
                 <Nav.Link href="#home" className="text-white fs-5">
                   Home
                 </Nav.Link>
-                <Nav.Link href="#link" className="text-white fs-5">
+                <Nav.Link href="#about" className="text-white fs-5">
                   About
                 </Nav.Link>
-                <Nav.Link href="#link" className="text-white fs-5">
+                <Nav.Link href="#portfolio" className="text-white fs-5">
                   Portfolio
                 </Nav.Link>
-                <Nav.Link href="#link" className="text-white fs-5">
+                <Nav.Link href="#team" className="text-white fs-5">
                   Team
                 </Nav.Link>
-                <Nav.Link href="#link" className="text-white fs-5">
+                <Nav.Link href="#contact" className="text-white fs-5">
                   Contact
                 </Nav.Link>
               </Nav>
@@ -150,7 +149,7 @@ console.log(defNav);
       <div
         className={`${styles.hero_text} d-flex flex-column align-items-center`}
       >
-        {/* <img src="/images/logo.png" alt="" width={300} className='img-fluid'/> */}
+      
         <HeroText></HeroText>
         <p className="text-white fs-5  w-75">
           Welcome to our universe.We provide you any kind of software solution

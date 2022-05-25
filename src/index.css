@@ -19,6 +19,24 @@ h1,h2,h3,h4,h5,h6{
   /* font-family: 'Roboto', sans-serif; */
 }
 
-.navbar_toggler_icon{
-    color: #307BEA !important;
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #6E00E1; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f313e0;
+  border-radius: 20px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
 }

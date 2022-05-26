@@ -1,0 +1,11 @@
+.colored_text{
+    color: #6E00E1;
+}
+
+.singleFeature_wrap{
+    background-color: #0F0035;
+    transition: all 0.3s ease-in;
+}
+.singleFeature_wrap:hover{
+    background-color: #6E00E1;
+}

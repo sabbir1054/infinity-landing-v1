@@ -3,9 +3,12 @@
     position: relative;
 }
 .about_right_bg{
+    padding: 50px 0px;
     background-color: #0F0035;
 }
-
+.about_left{
+    padding: 50px 0px;
+}
 .about_left p{
     text-align: justify;
 }

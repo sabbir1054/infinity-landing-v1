@@ -8,7 +8,7 @@ const About = () => {
       <Row className="w-100 g-0 d-flex align-items-center bg-light">
         <Col md={6} className=" px-5">
           <Container className={`${styles.about_left} py-5`}>
-            <h1 className="display-5">
+            <h1 className="display-5 py-5">
               About{" "}
               <span className={`${styles.colored_text}`}>
                 Infinity Algo Station

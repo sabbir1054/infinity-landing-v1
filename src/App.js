@@ -1,15 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
-import NavBar from './Components/Home/NavBar/NavBar';
+import Features from './Components/Feature/Features';
+
 
 function App() {
   return (
     <>
       <Home></Home>
-      {/* <NavBar></NavBar> */}
-      <About/>
+      <About />
+      <Features></Features>
     </>
   );
 }

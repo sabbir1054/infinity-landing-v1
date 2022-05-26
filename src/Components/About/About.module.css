@@ -1,4 +1,16 @@
 .about{
-    position: absolute;
-    z-index: 1;
+   
+    position: relative;
+}
+.about_right_bg{
+    background-color: #0F0035;
+}
+
+.about_left p{
+    text-align: justify;
+}
+
+.colored_text{
+    color: #771CE8;
+    border-bottom: 1px solid #771CE8;
 }

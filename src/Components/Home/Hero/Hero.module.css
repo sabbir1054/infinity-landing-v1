@@ -5,67 +5,54 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  font-family: 'Roboto',sans-serif;
-  position: relative;
-}
-.tsparticles{
-   position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
-    z-index: 0;
-}
-.heroNav{
-    z-index: 1;
+  font-family: "Roboto", sans-serif;
+  
 }
 
-.scroll_nav{
+
+.scroll_nav {
   position: fixed;
   border-bottom: 1px solid rgba(182, 179, 179, 0.466);
   box-shadow: 0px 0px 12px #ffffff42;
-  background-color: #0F0035;
-  font-family: 'Roboto',sans-serif;
-  padding:8px 0px ;
+  background-color: #0f0035;
+  font-family: "Roboto", sans-serif;
+  padding: 8px 0px;
   transition: all 0.5 ease-in;
 }
-
 
 .default_nav {
   border-bottom: 1px solid rgba(182, 179, 179, 0.466);
   box-shadow: 0px 0px 12px #ffffff42;
   background-color: rgba(0, 0, 0, 0.363);
-  font-family: 'Roboto',sans-serif;
-  padding:20px 0px ;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0px;
   transition: all 0.5 ease-in;
 }
 
-.heroBtn1{
-    background-color: #771CE8;
-    padding: 0.3vw 3vw;
-    border: 1px solid white;
-    border-radius: 30px;
-    transition: all 0.3s ease-in;
+.heroBtn1 {
+  background-color: #771ce8;
+  padding: 0.3vw 3vw;
+  border: 1px solid white;
+  border-radius: 30px;
+  transition: all 0.3s ease-in;
 }
-.heroBtn1:hover{
-    background-color: #00000031;
-    padding: 0.3vw 3vw;
-    border: 1px solid white;
-    border-radius: 30px;
+.heroBtn1:hover {
+  background-color: #00000031;
+  padding: 0.3vw 3vw;
+  border: 1px solid white;
+  border-radius: 30px;
 }
 
-.heroBtn2{
-    background-color: #00000031;
-    padding: 0.3vw 3vw;
-    border: 1px solid white;
-    border-radius: 30px;
-    transition: all 0.3s ease-in;
+.heroBtn2 {
+  background-color: #00000031;
+  padding: 0.3vw 3vw;
+  border: 1px solid white;
+  border-radius: 30px;
+  transition: all 0.3s ease-in;
 }
-.heroBtn2:hover{
-    background-color: #771CE8;
-    padding: 0.3vw 3vw;
-    border: 1.5px solid white;
-    border-radius: 30px;
+.heroBtn2:hover {
+  background-color: #771ce8;
+  padding: 0.3vw 3vw;
+  border: 1.5px solid white;
+  border-radius: 30px;
 }

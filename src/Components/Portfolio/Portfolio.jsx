@@ -46,12 +46,12 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div className="position-relative" id="portfolio">
+    <div className="position-relative pt-5 mt-5" id="portfolio">
       <Container>
-        <h3 className={`${styles.portfolio_title} text-center py-5`}>
+        <h2 className={`${styles.portfolio_title} text-center py-5`}>
           Our <span className={`${styles.colored_text}`}>Portfolio</span>
-        </h3>
-        <Row xs={1} md={2} className="g-3 py-5">
+        </h2>
+        <Row xs={1} md={2} className="g-3 pb-5">
           {projectName.map((data) => (
             <Col>
               <Card

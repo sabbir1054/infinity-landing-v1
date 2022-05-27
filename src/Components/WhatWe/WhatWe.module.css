@@ -1,0 +1,31 @@
+.cardText h2{ 
+    font-family: 'Roboto', sans-serif;
+}
+.cardText p{ 
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.cardImg{
+
+     border-bottom: 1px solid rgba(126, 126, 126, 0.435);
+}
+
+.colored_text{
+    color: #6E00E1;
+    font-weight: bold;
+    font-family: 'Robot',sans-serif;
+    
+}
+
+.card{
+    transition: all 0.3s cubic-bezier(0.8, 0.29, 1, 1);
+}
+.card:hover{
+    background-color: #6E00E1 !important;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+.card:hover .cardImg{
+   border-bottom: 1px solid rgba(223, 223, 223, 0.435);
+}

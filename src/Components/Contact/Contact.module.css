@@ -1,0 +1,32 @@
+.left{
+    background-color: #0F0035;
+}
+
+
+.colored_text {
+    color: #771CE8;
+    font-weight: bold !important;
+}
+
+
+.form_wrapper{
+    margin-left: 20px;
+    padding: 1vw;
+}
+
+.form_wrapper input{
+     padding: 10px 20px;
+}
+
+.submit_btn {
+    background-color: #771CE8;
+    padding: 7px 35px;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+}
+
+.submit_btn:hover{
+    background-color: #0F0035;
+}

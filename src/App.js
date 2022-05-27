@@ -5,6 +5,9 @@ import Features from './Components/Feature/Features';
 import Portfolio from './Components/Portfolio/Portfolio';
 import WhatWe from './Components/WhatWe/WhatWe';
 import Team from './Components/Team/Team';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
+
 
 
 function App() {
@@ -16,6 +19,8 @@ function App() {
       <WhatWe></WhatWe>
       <Portfolio></Portfolio>
       <Team></Team>
+      <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }

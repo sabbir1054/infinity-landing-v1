@@ -56,3 +56,9 @@
   border: 1.5px solid white;
   border-radius: 30px;
 }
+
+
+.navbar_toggler_icon{
+  background-color: rgba(119, 0, 255, 0.358);
+  color: white;
+}

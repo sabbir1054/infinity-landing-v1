@@ -74,7 +74,7 @@ const Team = () => {
     ],
   };
   return (
-    <div className={`${styles.team_wrapper} position-relative py-5 bg-light`}>
+    <div className={`${styles.team_wrapper} position-relative py-5 bg-light`} id='team'>
       <Container className="py-5">
         <div className={`${styles.team_text}`}>
           <h2 className="text-center fw-bold pb-4">

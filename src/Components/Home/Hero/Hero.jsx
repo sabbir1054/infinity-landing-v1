@@ -122,10 +122,11 @@ const Hero = () => {
             </Navbar.Brand>
             <Navbar.Toggle
               aria-controls="basic-navbar-nav"
-              className={styles.navbar_toggler_icon}
+              className={`${styles.navbar_toggler_icon}`}
+             
             />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ms-auto">
+              <Nav className="align-items-end ms-auto">
                 <Nav.Link href="#home" className="text-white fs-5">
                   Home
                 </Nav.Link>

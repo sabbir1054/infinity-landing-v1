@@ -1,0 +1,21 @@
+.colored_text{
+    color: #6E00E1;  
+}
+
+.team_text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.teamCard{
+    transition: all 0.3s ease-in;
+}
+
+.teamCard:hover{
+    background-color: #6E00E1;
+    color: aliceblue;
+}
+
+.teamCard:hover .colored_text{
+    color: white ;
+}

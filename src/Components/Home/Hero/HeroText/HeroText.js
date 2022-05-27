@@ -5,7 +5,7 @@ const HeroText = () => {
    
     return (
       <>
-            <h2 data-text="InfiniteAlgoStation..." className='hero-text'>InfiniteAlgoStation...</h2>
+            <h2 data-text="InfinityAlgoStation..." className='hero-text'>InfinityAlgoStation...</h2>
            
       </>
     );

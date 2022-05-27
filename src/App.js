@@ -4,6 +4,7 @@ import About from './Components/About/About';
 import Features from './Components/Feature/Features';
 import Portfolio from './Components/Portfolio/Portfolio';
 import WhatWe from './Components/WhatWe/WhatWe';
+import Team from './Components/Team/Team';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Features></Features>
       <WhatWe></WhatWe>
       <Portfolio></Portfolio>
+      <Team></Team>
     </>
   );
 }

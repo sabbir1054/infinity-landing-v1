@@ -5,7 +5,7 @@ import SendEmail from "./SendEmail";
 import SocialContact from "./SocialContact";
 const Contact = () => {
   return (
-    <div className="position-relative bg-light">
+    <div className="position-relative bg-light" id="contact">
       <div className={`${styles.contact_wrapper} py-5`}>
         <div className={`${styles.colored_text} text-center pt-5`}>
           <h3 className="fw-bold pb-5">Get in to Touch</h3>

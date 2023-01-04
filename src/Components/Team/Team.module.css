@@ -19,3 +19,14 @@
 .teamCard:hover .colored_text{
     color: white ;
 }
+
+.cardFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* cursor: pointer; */
+}
+
+.cardFooter img:hover{
+    cursor: pointer;
+}

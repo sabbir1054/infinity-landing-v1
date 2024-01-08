@@ -1,34 +1,27 @@
-import React, { useState } from "react";
+import React from "react";
 import { Card, Col, Container, NavLink, Row } from "react-bootstrap";
 import styles from "./Portfolio.module.css";
 const Portfolio = () => {
-
   const projectName = [
     {
       imgId: "01",
-      imgUrl: "/images/project01.png",
-      webLink: "https://medicare-c15c1.web.app/",
+      imgUrl: "/images/project00.png",
+      webLink:
+        "https://play.google.com/store/apps/details?id=com.infinityalgostation.niketonbd",
     },
+
     {
       imgId: "02",
-      imgUrl: "/images/project02.png",
-      webLink: "https://food-sender-muhammadsabbir.web.app/",
+      imgUrl: "/images/project001.png",
+      webLink: "https://doctorsfinderbd1.web.app/",
     },
+
     {
       imgId: "03",
-      imgUrl: "/images/project03.png",
-      webLink: "https://drone-galaxy-muhammad.web.app/",
+      imgUrl: "/images/project003.png",
+      webLink: "https://infinity-event-organizer-4747.web.app/",
     },
-    {
-      imgId: "04",
-      imgUrl: "/images/project04.png",
-      webLink: "https://car-bro-4747.firebaseapp.com/",
-    },
-    {
-      imgId: "05",
-      imgUrl: "/images/project05.png",
-      webLink: "https://project-pi-b18db.web.app/login",
-    },
+
     {
       imgId: "06",
       imgUrl: "/images/project06.png",
@@ -66,7 +59,13 @@ const Portfolio = () => {
                 />
                 <div className={`${styles.overlay} text-center`}>
                   <div className={`${styles.text} btn btn-primary`}>
-                    <NavLink href={`${data.webLink}`} target='blank' className='text-white'>Click Here</NavLink>
+                    <NavLink
+                      href={`${data.webLink}`}
+                      target="blank"
+                      className="text-white"
+                    >
+                      Click Here
+                    </NavLink>
                   </div>
                 </div>
               </Card>
